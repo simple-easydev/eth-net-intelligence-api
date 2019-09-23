@@ -1,0 +1,24 @@
+[
+  {
+    "name"              : "node-app",
+    "script"            : "app.js",
+    "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+    "merge_logs"        : false,
+    "watch"             : false,
+    "max_restarts"      : 10,
+    "exec_interpreter"  : "node",
+    "exec_mode"         : "fork_mode",
+    "env":
+    {
+      "NODE_ENV"        : "production",
+      "RPC_HOST"        : "localhost",
+      "RPC_PORT"        : "8545",
+      "LISTENING_PORT"  : "30303",
+      "INSTANCE_NAME"   : "Geth/v1.9.1-stable/darwin-amd64/go1.12.7",
+      "CONTACT_DETAILS" : "",
+      "WS_SERVER"       : "wss://rpc.ethstats.net",
+      "WS_SECRET"       : "1234",
+      "VERBOSITY"       : 2
+    }
+  }
+]
