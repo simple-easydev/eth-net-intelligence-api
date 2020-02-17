@@ -16,7 +16,7 @@
       "LISTENING_PORT"  : "30303",
       "INSTANCE_NAME"   : "Geth/v1.9.10-stable-58cf5686/linux-amd64/go1.13.6",
       "CONTACT_DETAILS" : "",
-      "WS_SERVER"       : "wss://rpc.ethstats.net",
+      "WS_SERVER"       : "http://18.234.121.6:8080",
       "WS_SECRET"       : "1234",
       "VERBOSITY"       : 2
     }
